@@ -1,9 +1,0 @@
-## Force www and https
-
-<IfModule mod_rewrite.c>
-	RewriteEngine On
-        RewriteCond %{HTTPS} off
-		RewriteCond %{HTTP_HOST} !^www\. [NC,OR]
-		RewriteCond %{HTTPS_HOST} !^www\. [NC]		
-         RewriteRule ^(.*)$ https://www.YOURSITE.com/$1 [L,R=301]
-</IfModule>

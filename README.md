@@ -1,3 +1,5 @@
 # .htaccess tips &amp; tricks
 
-Force www and https. 1 hop from non-www and http to https & www
+Transfer to GitHub Gist
+
+URL: https://gist.github.com/robi052
